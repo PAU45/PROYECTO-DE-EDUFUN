@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: RED;
+    background-color:white;
 
 }
 
@@ -10,7 +10,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background: linear-gradient(to bottom, #1b1926, #1e2b46);
+    background:#C75158;
     color: #fff;
     min-height: 80px;
 }
@@ -77,11 +77,11 @@ h3.titulo {
     font-size: 50px;
     font-style: italic;
     text-align: center;
-    color: aliceblue;
+    color: #C75158;
     margin-top: 20px;
 }
 .section {
-    background-color: rgb(40, 38, 38);
+    background-color:#C75158;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,7 +107,7 @@ h3.titulo {
 
 .section h1 {
     margin: 0;
-    color: aqua;
+    color: black;
     margin-bottom: 10px;
 }
 
