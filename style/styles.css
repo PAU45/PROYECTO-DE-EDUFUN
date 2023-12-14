@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: RED;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(to bottom, #1b1926, #1e2b46);
+    color: #fff;
+    min-height: 80px;
+}
+
+header img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin: 0 5px;
+    font-size: 16px; 
+}
+
+header nav a:hover {
+    background-color: #e60122;
+    border-radius: 50px;
+}
+
+
+
+p {
+    text-align: justify;
+}
+
+
+.p1 {
+    padding: 10px; 
+    text-align: justify;
+    float: left; 
+    width: 60%; 
+}
+
+img {
+    width: 40%;
+    height: auto; 
+    float: right; 
+    margin: 10px 0 10px 10px; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=INRIASans:wght@400&display=swap');
+h3.titulo {
+    font-family: 'INRIASans', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.section {
+    background-color: rgb(40, 38, 38);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, .5);
+}
+
+.section img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 30px;
+    border: dashed 3px white;
+}
+
+.section-content {
+    flex: 1;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.section h1 {
+    margin: 0;
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+.section p {
+    color: antiquewhite;
+    margin: 0;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section img {
+        margin-bottom: 20px;
+    }
+
+    .section-content {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    header nav {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .p1,
+    img {
+        width: 100%; 
+        float: none; 
+        margin: 10px 0; 
+    }
+
+    .p2,
+    img {
+        width: 100%;
+        float: none; 
+        margin: 10px 0; 
+    }
+}
